@@ -3,7 +3,7 @@ module Xirr
 
   # Sets as constants all the entries in the Hash Default values
   default_values = {
-      eps:             '1.0e-6'.to_f,
+      eps:             '1.0e-12'.to_d,
       period:          365.0,
       iteration_limit: 50,
       precision:       6,
